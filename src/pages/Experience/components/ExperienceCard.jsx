@@ -30,7 +30,7 @@ ExperienceCard.propTypes = {
   title: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   time: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.array.isRequired,
 };
 
 export default ExperienceCard;
