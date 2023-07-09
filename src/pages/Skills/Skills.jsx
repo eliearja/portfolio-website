@@ -14,6 +14,7 @@ function Skills() {
           {extendedSkills.map((skill, index) => (
             <SkillsCard
               key={index}
+              id={index}
               name={skill.name}
               image={skill.logo}
               altName={skill.alt}
