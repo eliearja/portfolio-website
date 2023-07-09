@@ -1,0 +1,17 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 0 4rem;
+  background-image: url("../../assets/backgrounds/layers.svg");
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.AboutTitle {
+  font-size: 3rem;
+}

@@ -1,0 +1,30 @@
+.MainCard {
+  background: #fbfbfb;
+  color: #000000;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  transition: ease-out 150ms;
+  box-shadow: #ffffff 0px 0px 1rem;
+}
+
+.MainCard:hover {
+  transform: scale(1.1);
+  transition: ease-out 250ms;
+}
+
+.SkillLogo {
+  height: 5rem;
+  aspect-ratio: 1;
+}
+
+.SkillName {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
+}

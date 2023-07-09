@@ -1,0 +1,50 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 0 1rem 0 1rem;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--backgroundImage);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  animation: slideFromTop ease-out 1s;
+}
+
+.Container.Show {
+  opacity: 1;
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.Name {
+  font-size: 3.5em;
+}
+
+.Description {
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: lighter;
+  margin: 0;
+}

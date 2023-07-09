@@ -1,0 +1,83 @@
+.MainExperienceCard {
+  display: flex;
+  flex: 1;
+  background-color: #ffffff;
+  color: var(--mainRed);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.8;
+  width: 75%;
+  border-radius: 1rem;
+  transition: 500ms ease-in;
+  padding: 0 2rem;
+}
+
+.MainExperienceCard > .JobHeader {
+  display: flex;
+}
+
+.JobHeader > .TitleLocation > .JobLocation {
+  display: none;
+}
+
+.JobHeader > .Time {
+  display: none;
+}
+
+.MainExperienceCard:hover {
+  opacity: 1;
+  transition: 500ms ease-out;
+  flex: 10;
+  color: #cc0000;
+  padding: 2rem;
+}
+
+.MainExperienceCard:hover > .JobHeader {
+  width: 100%;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.MainExperienceCard:hover > .JobHeader > .Time,
+.TitleLocation {
+  display: flex;
+  flex-direction: column;
+}
+
+.MainExperienceCard:hover > .JobHeader > .TitleLocation > .JobLocation {
+  display: block;
+  margin-block: 0rem;
+}
+
+.MainExperienceCard:hover > .JobHeader > .TitleLocation > .JobTitle {
+  margin-block-start: 0rem;
+  margin-block-end: 0.5rem;
+}
+
+.MainExperienceCard:hover > .JobHeader > .Time > .TimeRange {
+  margin-block-start: 0rem;
+}
+
+.MainExperienceCard > .JobBody {
+  display: none;
+}
+
+.MainExperienceCard:hover > .JobBody {
+  display: flex;
+  width: 100%;
+  flex: 3;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MainExperienceCard:hover > .JobBody > .JobDescription {
+  margin-block-end: 0.5rem;
+}
+
+.MainExperienceCard:hover > .JobBody > .JobTaskList {
+  margin-block: 0rem;
+  padding-inline: 1.5rem;
+  list-style-type: circle;
+}

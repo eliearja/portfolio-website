@@ -1,0 +1,95 @@
+:root {
+  --nav-item-size: 2.5rem;
+  --nav-item-hover-width: 7.5rem;
+  --nav-item-border-radius: 50%;
+  --nav-item-transition-duration: 100ms;
+  --nav-item-fill-default: #000000;
+  --nav-item-fill-hover: #cc0000;
+  --nav-item-text-color: #cc0000;
+  --nav-item-padding-left: 10%;
+}
+
+.NavMain {
+  width: 2rem;
+  position: fixed;
+  top: 35%;
+  padding-left: 0.5rem;
+  z-index: 1;
+}
+
+.NavList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  animation: slideFromLeft 1000ms ease-out;
+}
+
+.NavItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+  height: var(--nav-item-size);
+  width: var(--nav-item-size);
+  border-radius: var(--nav-item-border-radius);
+  transition:
+    width var(--nav-item-transition-duration) ease-in-out,
+    border-radius var(--nav-item-transition-duration) ease-in-out,
+    padding-left var(--nav-item-transition-duration) ease-in-out;
+}
+
+.NavItem svg {
+  height: 1.25rem;
+  aspect-ratio: 1;
+  fill: var(--nav-item-fill-default);
+  transition: fill var(--nav-item-transition-duration) ease-in-out;
+}
+
+.NavItem .LinkText {
+  display: none;
+  transition: color var(--nav-item-transition-duration) ease-in-out;
+}
+
+.NavItem:hover {
+  width: var(--nav-item-hover-width);
+  border-radius: 100vw;
+  justify-content: flex-start;
+  padding-left: var(--nav-item-padding-left);
+  cursor: pointer;
+}
+
+.NavItem:hover svg {
+  fill: var(--nav-item-fill-hover);
+}
+
+.NavItem:hover .LinkText {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: var(--nav-item-padding-left);
+  color: var(--nav-item-text-color);
+}
+
+.NavItem.active > svg {
+  fill: var(--nav-item-fill-hover);
+}
+
+.NavItem.active > .LinkText {
+  color: var(--nav-item-text-color);
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-200%);
+    filter: blur(2px);
+  }
+  to {
+    transform: translateX(0%);
+    filter: blur(0);
+  }
+}

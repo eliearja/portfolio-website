@@ -1,0 +1,53 @@
+.Skills {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 4rem 8rem 0rem;
+  background-image: url("../../assets/backgrounds/solid-wave.svg");
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.SkillsTitle {
+  font-size: 3rem;
+  padding: 0 1rem;
+}
+
+.SkillsBlock {
+  margin: 10%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  width: 100%;
+}
+
+.SkillsHolder {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem;
+  width: calc(
+    7.5rem * 38 * 2
+  ); /* Multiply by 2 to account for the duplicated skills */
+  animation: scrollInfinitely 30s linear infinite;
+}
+
+.SkillsHolder:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollInfinitely {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-7.5rem * 19));
+  }
+}

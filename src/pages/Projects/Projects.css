@@ -1,0 +1,18 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 0 4rem;
+  background-image: url("../../assets/backgrounds/layers2.svg");
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ProjectsTitle {
+  font-size: 3rem;
+  padding: 0 1rem;
+}
