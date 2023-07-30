@@ -18,27 +18,65 @@
 
 .CoursesHolder {
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.CoursesInfo {
+  display: flex;
   flex: 1;
-  width: 100%;
-  padding-bottom: 5rem;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
+.CoursesCharts {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3rem;
 }
 
-th,
-td {
-  border: 1px solid #ffffff;
-  padding: 1rem;
-  text-align: left;
+.GeneralInfo {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3rem;
 }
 
-th {
-  background-color: #3a3a3a;
+.GPAHolder {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3rem;
 }
 
-tbody {
-  background-color: #646464;
+.ChartsHolder {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 1rem 1rem;
+}
+
+.MoreInfoButton {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: "candela";
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  width: 20rem;
 }
