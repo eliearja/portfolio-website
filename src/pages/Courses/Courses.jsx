@@ -20,7 +20,7 @@ function Courses() {
           </div>
           <div className="GPAHolder">
             <div style={{ display: "flex", alignItems: "baseline" }}>
-              <h1>GPA: 9.28</h1>
+              <h1>CGPA: 9.28</h1>
               <h4>/10</h4>
             </div>
           </div>
