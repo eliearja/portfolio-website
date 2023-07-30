@@ -183,63 +183,63 @@ export const CoursesTaken = {
       name: "Principles of Chemistry",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MAT1720",
       name: "Calculus I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MAT1722",
       name: "Calculus II",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MAT1741",
       name: "Introduction to Linear Algebra",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MAT1348",
       name: "Discrete Mathematics for Computing",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "PHY1721",
       name: "Principles of Physics I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MAT2377",
       name: "Probability and Statistics for Engineers",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "PHY1722",
       name: "Principles of Physics II",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "EVS1501",
       name: "Introduction to Environmental Sciences",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: true
+      isFrench: true,
     },
   ],
   "Software Engineering": [
@@ -248,216 +248,252 @@ export const CoursesTaken = {
       name: "Introduction to Computing I",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "ITI1521",
       name: "Introduction to Computing II",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "SEG2505",
       name: "Introduction to Software Engineering",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "SEG3503",
       name: "Software Quality Assurance",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "SEG3525",
       name: "Analysis and Design of User Interfaces",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "SEG2106",
       name: "Software Construction",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG2911",
       name: "Professional Software Engineering Practice",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "SEG3101",
       name: "Software Requirements Analysis",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG3102",
       name: "Software Design and Architecture",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG4145",
       name: "Real Time and Embedded Software Design",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG4910",
       name: "Software Engineering Capstone Project I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG4911",
       name: "Software Engineering Capstone Project II",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "SEG4505",
       name: "Software Project Management",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: true
+      isFrench: true,
     },
   ],
-  "Computer Sciences" : [
+  "Computer Sciences": [
     {
       code: "CSI2510",
       name: "Data Structures and Algorithms",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "CSI3531",
       name: "Operating Systems",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "CSI2501",
       name: "Discrete Structures",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "CSI2532",
       name: "Databases I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "CSI2372",
       name: "Advanced Programming Concepts with C++",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CSI3105",
       name: "Design and Analysis of Algorithms I",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CSI3140",
       name: "WWW Structures, Techniques and Standards",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CSI4506",
       name: "Introduction to Artificial Intelligence",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
   ],
-  "Computer Engineering" : [
+  "Computer Engineering": [
     {
       code: "ITI1100",
       name: "Digital Systems I",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CEG2136",
       name: "Computer Architecture I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CEG3585",
       name: "Introduction to Data Communications and Networking",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: true
+      isFrench: true,
     },
   ],
-  "Others": [
+  Others: [
     {
       code: "FRA1528",
       name: "Technical Report Writing",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "GNG1505",
       name: "Engineering Mechanics",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "MCG1500",
       name: "Introduction to Mechanical Engineering",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: true
+      isFrench: true,
     },
     {
       code: "ECO1192",
       name: "Engineering Economics",
       gpa: "9.0 / 10.0",
       letter: "A",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "ESP1991",
       name: "Elementary Spanish I",
       gpa: "10.0 / 10.0",
       letter: "A+",
-      isFrench: false
+      isFrench: false,
     },
     {
       code: "CLA2130",
       name: "Introduction to Greek Literature",
       gpa: "8.0 / 10.0",
       letter: "A-",
-      isFrench: false
+      isFrench: false,
     },
-  ]
+  ],
 };
+
+export const GradeCountData = [
+  { name: "A+", count: 15 },
+  { name: "A", count: 12 },
+  { name: "A-", count: 5 },
+];
+
+export const TermGradeData = [
+  { name: "Filler", gpa: "0.0" },
+  { name: "Fall 2018", gpa: "9.20" },
+  { name: "Winter 2019", gpa: "9.20" },
+  { name: "Spring/Summer 2019", gpa: "10.0" },
+  { name: "Fall 2019", gpa: "9.80" },
+  { name: "Spring/Summer 2020", gpa: "9.75" },
+  { name: "Winter 2021", gpa: "9.20" },
+  { name: "Spring/Summer 2021", gpa: "10.0" },
+  { name: "Fall 2021", gpa: "9.00" },
+  { name: "Winter 2022", gpa: "9.20" },
+  { name: "Fall 2022", gpa: "8.50" },
+];
+
+export const CoursesGeneralInfo = [
+  {
+    description: "Attended the University of Ottawa from Sep. 2018 - Dec. 2022",
+  },
+  {
+    description:
+      "Graduated with a Bachelor of Applied Sciences in Software Engineering",
+  },
+  {
+    description: "Received Summa Cum Laude distinction",
+  },
+  {
+    description: "Part of the Dean's Honour List every semester",
+  },
+];
