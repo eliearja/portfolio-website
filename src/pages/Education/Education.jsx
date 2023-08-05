@@ -1,14 +1,14 @@
 import { CoursesGeneralInfo } from "../../data/Data";
-import "./Courses.css";
+import "./Education.css";
 import GradeCountChart from "./components/GradeCountChart";
 import TermGradeChart from "./components/TermGradeChart";
 
-function Courses() {
+function Education() {
   return (
-    <div className="Courses" id="courses">
-      <h1 className="CoursesTitle">Courses</h1>
-      <div className="CoursesHolder">
-        <div className="CoursesInfo">
+    <div className="Education" id="education">
+      <h1 className="EducationTitle">Education</h1>
+      <div className="EducationHolder">
+        <div className="EducationInfo">
           <div className="GeneralInfo">
             <ul>
               {CoursesGeneralInfo.map((point, index) => (
@@ -25,16 +25,16 @@ function Courses() {
             </div>
           </div>
         </div>
-        <div className="CoursesCharts">
+        <div className="EducationCharts">
           <div className="ChartsHolder">
             <GradeCountChart />
             <TermGradeChart />
           </div>
-          <button className="MoreInfoButton">View All Courses</button>
+          <button className="MoreInfoButton">View All Education</button>
         </div>
       </div>
     </div>
   );
 }
 
-export default Courses;
+export default Education;

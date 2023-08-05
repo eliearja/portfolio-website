@@ -1,4 +1,4 @@
-.Courses {
+.Education {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -12,23 +12,23 @@
   background-size: cover;
 }
 
-.CoursesTitle {
+.EducationTitle {
   font-size: 3rem;
 }
 
-.CoursesHolder {
+.EducationHolder {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
 }
 
-.CoursesInfo {
+.EducationInfo {
   display: flex;
   flex: 1;
 }
 
-.CoursesCharts {
+.EducationCharts {
   display: flex;
   flex: 2;
   flex-direction: column;
