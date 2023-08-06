@@ -1,11 +1,16 @@
+import { useState } from "react";
 import { CoursesGeneralInfo } from "../../data/Data";
 import "./Education.css";
 import GradeCountChart from "./components/GradeCountChart";
 import TermGradeChart from "./components/TermGradeChart";
+import GradePanel from "./components/GradePanel/GradePanel";
 
 function Education() {
+  const [isPanelOpen, setIsPanelOpen] = useState(false);
+
   return (
     <div className="Education" id="education">
+      {isPanelOpen && <GradePanel closePanel={setIsPanelOpen} />}
       <h1 className="EducationTitle">Education</h1>
       <div className="EducationHolder">
         <div className="EducationInfo">
@@ -30,7 +35,14 @@ function Education() {
             <GradeCountChart />
             <TermGradeChart />
           </div>
-          <button className="MoreInfoButton">View All Education</button>
+          <button
+            className="MoreInfoButton"
+            onClick={() => {
+              setIsPanelOpen(true);
+            }}
+          >
+            View Individual Courses
+          </button>
         </div>
       </div>
     </div>
