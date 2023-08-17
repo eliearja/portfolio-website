@@ -494,6 +494,6 @@ export const CoursesGeneralInfo = [
     description: "Received Summa Cum Laude distinction",
   },
   {
-    description: "Part of the Dean's Honour List every semester",
+    description: "Dean's Honour List member every semester",
   },
 ];
