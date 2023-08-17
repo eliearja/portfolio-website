@@ -469,7 +469,7 @@ export const GradeCountData = [
 ];
 
 export const TermGradeData = [
-  { name: "Filler", gpa: "0.0" },
+  { name: "", gpa: "0.0" },
   { name: "Fall 2018", gpa: "9.20" },
   { name: "Winter 2019", gpa: "9.20" },
   { name: "Spring/Summer 2019", gpa: "10.0" },
