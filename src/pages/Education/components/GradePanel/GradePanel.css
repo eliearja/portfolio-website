@@ -12,6 +12,8 @@
 }
 
 .GradePanel {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -31,7 +33,20 @@
   font-size: 1rem;
   font-family: "candela";
   font-weight: bold;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
+  padding: 0.5rem;
   width: 10rem;
+}
+
+.GradePanelBody {
+  display: flex;
+  flex: 11;
+  justify-content: center;
+  align-items: center;
+}
+
+.GradePanelFooter {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
